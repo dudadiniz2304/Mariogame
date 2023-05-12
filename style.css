@@ -1,0 +1,36 @@
+.heading{
+    width:100%;
+    text-align: left;
+}
+.heading button{
+    float:right;
+    border: 1px solid white;
+}
+.heading h3{
+    display: inline;
+}
+#peach{
+    width: 100%;
+}
+#start{
+    font-size: 22px;
+}
+#cre{
+    background-color:rgb(255, 109, 109);
+}
+.modal-dialog{
+    width: 90%;
+}
+.instruction_image{
+    width: 45%;
+    display:inline-block;
+}
+
+video{
+    background: url("game_console.png");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    /* a linha de baixo desfaz o espelhado da webcam */
+    transform: scaleX(-1);
+}
